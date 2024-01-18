@@ -706,12 +706,13 @@ address {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-   width: 169px;
-  height: 56px; 
+  width: 169px;
+  height: 56px;
   border-radius: 4px;
   background: var(--IRIS, #4d5ae5);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   border: none;
   cursor: pointer;
+}
 
 /* ------------------------------ */
