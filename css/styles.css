@@ -534,8 +534,8 @@ address {
 .foter-form-element {
 }
 
-.footer-form-subtite {
-  color: var(--WHITE, #ffffff);
+.footer-form-subtitel {
+  color: #ffffff;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
