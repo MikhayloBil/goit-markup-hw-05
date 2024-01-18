@@ -543,7 +543,7 @@ address {
   margin-bottom: 16px;
 }
 
-.foter-input-email {
+.footer-form {
   display: flex;
   justify-content: center;
   gap: 24px;
