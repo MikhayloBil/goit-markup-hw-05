@@ -567,7 +567,6 @@ address {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 16px;
   min-width: 165px;
   height: 40px;
   color: var(--WHITE, #fff);
@@ -580,6 +579,11 @@ address {
   border: none;
   background: var(--IRIS, #4d5ae5);
   padding: 8px 24px;
+}
+
+.footer-icon-submit {
+  margin-left: 16px;
+  fill: #fff;
 }
 
 /* ------------------------------ */
