@@ -657,12 +657,12 @@ address {
   margin-bottom: 16px;
 }
 
-.modal-field {
-  margin-bottom: 8px;
-}
-
 .modal-input-wrap {
   position: relative;
+}
+
+.modal-field {
+  margin-bottom: 8px;
 }
 
 .modal-input {
@@ -744,7 +744,7 @@ address {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  display: inline-flex;
+  display: flex;
   align-items: center;
 }
 
@@ -753,7 +753,8 @@ address {
   text-decoration: underline;
 }
 
-.check-text span {
+.check-span {
+  display: inline-flex;
   width: 16px;
   height: 16px;
   border-radius: 2px;
