@@ -610,8 +610,7 @@ address {
   transform: translate(-50%, -50%) scale(1);
   width: 408px;
   min-height: 584px;
-  padding-left: 24px;
-  padding-right: 24px;
+  padding: 72px 24px 24px 24px;
   background-color: #fcfcfc;
   border-radius: 4px;
   box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.14),
@@ -649,8 +648,7 @@ address {
 
 .modal-close-icon:hover,
 .modal-close-icon:focus {
-  background-color: #404bbf;
-  border: none;
+  fill: #ffffff;
 }
 
 .modal-title {
@@ -681,6 +679,7 @@ address {
   padding-left: 38px;
   outline: transparent;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-input:focus {
@@ -695,7 +694,7 @@ address {
   display: block;
   color: var(--LIGHT-SLATE, #8e8f99);
   font-size: 12px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   margin-bottom: 4px;
 }
@@ -718,6 +717,19 @@ address {
   padding: 8px 16px;
   outline: transparent;
   resize: none;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: rgba(46, 47, 66, 0.4);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-comment:focus {
+  border-color: #4d5ae5;
+}
+
+.modal-field-comment {
+  margin-bottom: 16px;
 }
 
 .modal-comment::placeholder {
@@ -728,14 +740,17 @@ address {
   letter-spacing: 0.04em;
 }
 
+.madal-field {
+  margin-bottom: 24px;
+}
+
 .check-text {
   color: var(--LIGHT-SLATE, #8e8f99);
   font-size: 12px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   display: flex;
   align-items: center;
-  margin-bottom: 24px;
 }
 
 .check-text a {
@@ -801,6 +816,9 @@ address {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   border: none;
   cursor: pointer;
+  background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* ------------------------------ */
