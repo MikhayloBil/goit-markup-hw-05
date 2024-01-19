@@ -735,16 +735,12 @@ address {
   letter-spacing: 0.04em;
 }
 
-.modal-field {
-  margin-bottom: 24px;
-}
-
 .check-text {
   color: var(--LIGHT-SLATE, #8e8f99);
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  display: flex;
+  display: inline-flex;
   align-items: center;
 }
 
@@ -754,7 +750,6 @@ address {
 }
 
 .check-span {
-  display: inline-flex;
   width: 16px;
   height: 16px;
   border-radius: 2px;
